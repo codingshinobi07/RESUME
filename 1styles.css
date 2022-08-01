@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+  font-family: cursive;
+  background-color: #ffb99a;
+  font-family: "Shadows Into Light", cursive;
+  background: url("https://wallpaperaccess.com/full/37368.jpg") no-repeat fixed;
+  opacity: 5;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+  color: #851d41;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+p {
+  font-size: 25px;
+  color: whitesmoke;
+  animation-duration: 5s;
+  animation-name: poem;
+}
+h1:hover {
+  color: forestgreen;
+}
+h1:hover {
+  color: green;
+}
+
+@keyframes slidein {
+  from {
+    margin-bottom: 100%;
+    width: 300%;
+    opacity: 0;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+    opacity: 1;
+  }
+}
+@keyframes poem {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+p:hover {
+  color: black;
+}
+table {
+  color: whitesmoke;
+}
+ul {
+  color: salmon;
+}
+h3 {
+  color: whitesmoke;
+}
